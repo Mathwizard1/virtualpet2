@@ -141,7 +141,7 @@ function mouseOver(x){
 }
 
 function feeddog(){
-  if(foods!=0){
+  if(foods!=0&&c==0){
   time = hour();
   kit=tri.updateFoodStock(writeStockTime(foods,time));
   s1=1;
